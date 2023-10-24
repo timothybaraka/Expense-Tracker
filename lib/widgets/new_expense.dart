@@ -40,7 +40,7 @@ class _NewExpenseState extends State<NewExpense> {
     final enteredAmount =
         double.tryParse(_amountController.text); //converts a string to double
     final amountIsInvalid = enteredAmount == null || enteredAmount <= 0;
-    if (_titleController.text.trim().isEmpty ||
+    if (_titleController.text.trim().isEmpty || //remove whitespace
         amountIsInvalid ||
         _selectedDate == null) {
       showDialog(
