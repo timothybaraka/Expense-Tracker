@@ -3,7 +3,7 @@ import 'package:expense_tracker/widgets/expenses.dart';
 import 'package:flutter/services.dart';
 
 var kColorScheme =
-    ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 96, 59, 181));
+    ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 59, 128, 181));
 
 var kDarkColorScheme = ColorScheme.fromSeed(
     brightness: Brightness.dark,
